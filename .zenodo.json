@@ -1,0 +1,10 @@
+{
+  "title": "Mills forest: Lean 4 formalization and ECPP primality certificates",
+  "description": "Supplementary material for the paper \"Mills-type prime-representing constants for exponents below two: a compactness argument\" by L. F. Marcelino: a Lean 4/Mathlib formalization of the compactness deduction and ECPP primality certificates for the explicit chain for the golden ratio. The Lean code is released under the Apache License 2.0; the certificates under CC BY 4.0.",
+  "upload_type": "software",
+  "creators": [
+    {"name": "Marcelino, Luis Fernando"}
+  ],
+  "license": "Apache-2.0",
+  "keywords": ["Mills' constant", "prime-representing functions", "primes in short intervals", "Lean 4", "Mathlib", "formal verification", "ECPP"]
+}
