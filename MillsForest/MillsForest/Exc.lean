@@ -9,7 +9,8 @@ import MillsForest.Phi
 
 The literature (`μ`, Bazzanella–Perelli, Gafni–Tao) is stated for Chebyshev's `ψ`, for real
 `x`, with Lebesgue measure and window `x^θ`. The passage from there to this discrete
-statement still happens **on paper**. It consists of three standard transfers:
+statement consists of three standard transfers, all of which are now proved in Lean
+((b) in `Psi.lean`, (a) and (c) in `Lit.lean`):
   (a) from a real-`x` measure to integer sampling;
   (b) from `ψ` to `π`, removing prime powers;
   (c) from window `x^θ` to `⌊x^θ'⌋` with `θ' < θ`.

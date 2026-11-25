@@ -17,8 +17,8 @@ We prove that, for `0 < θ ≤ 1/2`, it implies the prime-counting hypothesis
   two `k`-th powers for each `k`, so at most `2 log₂(x+H)` of them;
 * compares `log p` with `log x`.
 
-What remains informal: (a) from real-`x` measure to integer sampling, and (c) from the
-window `x^θ` to `⌊x^θ'⌋` (including the shift by one in `ψ(x - 1)`).
+The remaining transfers, (a) from real-`x` measure to integer sampling and (c) from the
+window `x^θ` to `⌊x^θ'⌋` (including the shift by one in `ψ(x - 1)`), are proved in `Lit.lean`.
 -/
 
 open Finset Real Filter ArithmeticFunction

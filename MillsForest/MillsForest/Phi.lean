@@ -11,8 +11,8 @@ The single analytic hypothesis is an exceptional-set bound in counting form:
   `#{n ≤ N : the interval of n has fewer than ℓ(n)/(5 log (n+1)^c) primes} ≤ K N^{1-δ}`
 
 for every `N ≥ 1`. Here `ℓ(n) = (n+1)^c - n^c`. This is what the literature provides when
-`μ(1 - 1/c) < 1`; the passage from `μ` to this count is the informal Markov step of the
-paper.
+`μ(1 - 1/c) < 1`. The passage to this count, including the Markov step of the paper, is
+formalized in `Exc.lean`, `Psi.lean` and `Lit.lean`, starting from `LitExcHyp`.
 
 Everything else is proved here: the choice of `ν, β, L`, the recursion, and the existence
 of a suitable `Y`.
